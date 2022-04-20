@@ -1,0 +1,40 @@
+  .wow {
+  width: 100px;
+}
+
+.background {
+  background-color: #2D2D2D;
+}
+
+
+/*Página Inicial*/
+
+.logo{
+	height: 30%;
+    width: 80%;
+    position: absolute;
+    margin: 0;
+    top: 30%;
+    left: 11%;
+}
+
+.titulo{
+
+    position: absolute;
+    width: 75%;
+    height: 17%;
+    left: 18.5%;
+    right: 15.5%;
+    top: 55%;
+    font-family: 'Nunito', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #DCDCDC;
+    text-decoration: none;
+}
+

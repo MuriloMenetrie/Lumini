@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    background-color: #262626;
+    align-content: center;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    height: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #2d2d2d;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #D0A104;
+}
+
+div{
+    align-content: center;
+    vertical-align: middle;
+}
+
+img{
+    height: fit-content;
+    width: fit-content;
+    border-radius: 200px;
+    margin: 45% 5% 0 5%;
+    position: relative;
+    align-content: center;
+    text-align: center;
+}
+
+p{
+    font-family: 'nunito', sans-serif;
+    color: #f2f2f2;
+    font-size: 90px;
+    text-align: center;
+    margin: 25% 10% 0 10%;
+    position: relative;
+}
+
