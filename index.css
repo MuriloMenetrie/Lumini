@@ -2,6 +2,9 @@ body{
     margin: 0;
     background-color: #262626;
     align-content: center;
+	transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 body::-webkit-scrollbar {
@@ -14,7 +17,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #D0A104;
+    background-color: #F2B705;
 }
 
 div{

@@ -4,6 +4,9 @@
     background-color: #2D2D2D;
     color: #FFFFFF;
     width: 100vw;
+	transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 body::-webkit-scrollbar {
@@ -26,7 +29,7 @@ body::-webkit-scrollbar-thumb {
 
 .botao-entrar {
     position: relative;
-    background: #424DD7;
+    background: linear-gradient(360deg, #424dd7 8%, rgb(34 34 34 / 52%) 186%, rgba(63, 63, 63, 0.64) 100%);
     border: 1px #424DD7;
     border-radius: 5px;
     color: #ffffff;
@@ -54,7 +57,7 @@ body::-webkit-scrollbar-thumb {
 .botao-entrar:hover {
     transform: scale(1.1);
     border-radius: 15px;
-    background-color: #D0A104;
+    background: linear-gradient(360deg, #f2b705 8%, rgb(34 34 34 / 52%) 186%, rgba(63, 63, 63, 0.64) 100%);
     color: #000000;
 }
 

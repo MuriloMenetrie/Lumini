@@ -8,6 +8,9 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     scroll-behavior: smooth;
+	transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 body::-webkit-scrollbar {
@@ -20,7 +23,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #D0A104;
+    background-color: #F2B705;
 }
 
 header a span{
@@ -76,6 +79,7 @@ bottom p
 .wrap {
     position: absolute;
     top: 70px;
+	width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -83,7 +87,6 @@ bottom p
     flex-wrap: nowrap;
 }    
     .half {
-      width: 50%;
       padding: 32px;
     }
 
@@ -315,9 +318,9 @@ div .fundo-hora2 p
 
 /*botões*/
 .toggle {
-    margin: 9.5% 5%;
     position: absolute;
-    right: 10px;
+    right: 30px;
+    top: 35px;
 }
 
 .toggle > input {
