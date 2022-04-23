@@ -4,6 +4,9 @@
     background-color: #2D2D2D;
     color: #FFFFFF;
     width: 100vw;
+	transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 .titulo {
@@ -34,7 +37,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #D0A104;
+    background-color: #F2B705;
 }
 
 
@@ -55,7 +58,7 @@ body::-webkit-scrollbar-thumb {
 
 .botao-entrar {
     position: relative;
-    background: #424DD7;
+    background: linear-gradient(360deg, #424dd7 8%, rgb(34 34 34 / 52%) 186%, rgba(63, 63, 63, 0.64) 100%);
     border: 1px #424DD7;
     border-radius: 5px;
     color: #ffffff;
@@ -73,17 +76,17 @@ body::-webkit-scrollbar-thumb {
     margin-left: 14.5%;
     margin-right: 0;
     margin-top: 0;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Nunito', sans-serif;
+    font-family: "nunito", sans-serif;
     bottom: 10%;
 }
 
 .botao-entrar:hover {
     transform: scale(1.1);
-    border-radius: 5px;
-    background-color: #D0A104;
+    border-radius: 15px;
+    background: linear-gradient(360deg, #f2b705 8%, rgb(34 34 34 / 52%) 186%, rgba(63, 63, 63, 0.64) 100%);
     color: #000000;
 }
 

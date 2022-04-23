@@ -8,6 +8,9 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     scroll-behavior: smooth;
+	transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 body::-webkit-scrollbar
@@ -55,13 +58,13 @@ header p
 {
     position: absolute;
     height: 25px;
+    /* width: 6.5%; */
     background-color: #f2b705;
     border-radius: 100%;
     color: white;
-    padding: 5px;
+    padding: 7px;
     text-align: center;
 }
-
 
 .edit a
 {
@@ -73,12 +76,13 @@ header p
 .config
 {
     position: absolute;
-    bottom: 0;
+	bottom: 0;
     height: 25px;
+    /* width: 6.5%; */
     background-color: #f2b705;
     border-radius: 100%;
     color: white;
-    padding: 5px;
+    padding: 7px;
     text-align: center;
 }
 
@@ -120,12 +124,6 @@ header p
     margin: 0px 0 0px 40px;
     top: 25px;
     left: 12%;
-}
-
-.comodos a
-{
-	text-decoration: none;
-	color: white;
 }
 
 .botao{

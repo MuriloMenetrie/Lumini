@@ -3,19 +3,24 @@
 }
 
 .background {
+	margin: 0;
   background-color: #2D2D2D;
+	transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 
 /*Página Inicial*/
 
 .logo{
-	height: 30%;
-    width: 80%;
-    position: absolute;
-    margin: 0;
-    top: 30%;
-    left: 11%;
+	/*height: 30%;*/
+    width: -webkit-fill-available;
+    /* position: absolute; */
+    margin: 470px 25%;
+    /* top: 30%; */
+    /* left: 11%; */
+}
 }
 
 .titulo{

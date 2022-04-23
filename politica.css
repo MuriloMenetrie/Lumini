@@ -4,6 +4,9 @@
   background-color: #2D2D2D;
   color: #FFFFFF;
   width: 100vw;
+	transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-out;
 }
 
 body::-webkit-scrollbar {
@@ -16,7 +19,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #D0A104;
+  background-color: #F2B705;
 }
 
 .material-icons-outlined {
@@ -25,37 +28,36 @@ body::-webkit-scrollbar-thumb {
 }
 
 .botao-entrar {
-  position: relative;
-  background: #424DD7;
-  border: 1px #424DD7;
-  border-radius: 5px;
-  color: #ffffff;
-  display: inline-block;
-  height: 40px;
-  letter-spacing: -1px;
-  line-height: 40px;
-  padding: 4px;
-  text-align: center;
-  text-decoration: none;
-  width: 80%;
-  transition: all;
-  transition-duration: 0.5s;
-  transition-timing-function: ease-in-out;
-  justify-content: center;
-  margin-left: 10%;
-  margin-right: 0;
-  margin-top: 0;
-  margin-bottom: 10%;
-  font-weight: bold;
-  font-size: 20px;
-  font-family: 'Nunito', sans-serif;
+    position: relative;
+    background: linear-gradient(360deg, #424dd7 8%, rgb(34 34 34 / 52%) 186%, rgba(63, 63, 63, 0.64) 100%);
+    border: 1px #424DD7;
+    border-radius: 5px;
+    color: #ffffff;
+    display: inline-block;
+    height: 40px;
+    letter-spacing: -1px;
+    line-height: 40px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    width: 70%;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    justify-content: center;
+    margin-left: 13.5%;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 10%;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "nunito", sans-serif;
 }
 
 .botao-entrar:hover {
-  transform: scale(1.1);
-  border-radius: 5px;
-  background-color: #D0A104;
-  color: #000000;
+    transform: scale(1.1);
+    border-radius: 15px;
+    background: linear-gradient(360deg, #f2b705 8%, rgb(34 34 34 / 52%) 186%, rgba(63, 63, 63, 0.64) 100%);
+    color: #000000;
 }
 
 .texto {
