@@ -137,3 +137,19 @@ body::-webkit-scrollbar-thumb {
   flex-wrap: wrap;
   flex-direction: row;
 }
+
+span{
+  background-color: #f2f2f200;
+  line-height: 10px;
+  padding: 5px;
+  border-radius: 50%;
+  transform: scale(1.0);
+}
+
+span:hover{
+transform: scale(1.1);
+background-color: #f2f2f23d;
+transition-property: all;
+transition-duration: 0.5s;
+transition-timing-function: ease-out;
+}
