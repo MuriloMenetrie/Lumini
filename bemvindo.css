@@ -1,111 +1,120 @@
 .background {
-    margin: 0;
-    height: 100vh;
-    background-color: #2D2D2D;
-    color: #FFFFFF;
-    width: 100vw;
-	transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-out;
+  margin: 0;
+  height: 100vh;
+  background-color: #2d2d2d;
+  color: #ffffff;
+  width: 100vw;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
 }
 
 body::-webkit-scrollbar {
-    width: 7px;
-    height: 7px;
+  width: 7px;
+  height: 7px;
 }
 
 body::-webkit-scrollbar-track {
-    background: #2d2d2d;
+  background: #2d2d2d;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #D0A104;
+  background-color: #d0a104;
 }
 
-
 .inicio {
-    position: relative;
+  position: relative;
 }
 
 .botao-entrar {
-    position: relative;
-    background: linear-gradient(360deg, #424dd7 8%, rgb(34 34 34 / 52%) 186%, rgba(63, 63, 63, 0.64) 100%);
-    border: 1px #424DD7;
-    border-radius: 5px;
-    color: #ffffff;
-    display: inline-block;
-    height: 40px;
-    letter-spacing: -1px;
-    line-height: 40px;
-    padding: 4px;
-    text-align: center;
-    text-decoration: none;
-    width: 70%;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    justify-content: center;
-    margin-left: 14.5%;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 5%;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: "nunito", sans-serif;
-    bottom: 10%;
+  position: relative;
+  background: linear-gradient(
+    360deg,
+    #424dd7 8%,
+    rgb(34 34 34 / 52%) 186%,
+    rgba(63, 63, 63, 0.64) 100%
+  );
+  border: 1px #424dd7;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  height: 40px;
+  letter-spacing: -1px;
+  line-height: 40px;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  width: 70%;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  justify-content: center;
+  margin-left: 14.5%;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 5%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "nunito", sans-serif;
+  bottom: 10%;
 }
 
 .botao-entrar:hover {
-    transform: scale(1.1);
-    border-radius: 15px;
-    background: linear-gradient(360deg, #f2b705 8%, rgb(34 34 34 / 52%) 186%, rgba(63, 63, 63, 0.64) 100%);
-    color: #000000;
+  transform: scale(1.1);
+  border-radius: 15px;
+  background: linear-gradient(
+    360deg,
+    #f2b705 8%,
+    rgb(34 34 34 / 52%) 186%,
+    rgba(63, 63, 63, 0.64) 100%
+  );
+  color: #000000;
 }
 
 .titulo {
-    position: relative;
-    left: 12%;
-    top: 52%;
-    width: 75%;
-    font-family: 'Roboto', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 33px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    justify-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-content: center;
+  position: relative;
+  left: 12%;
+  top: 52%;
+  width: 75%;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: center;
 }
 
 .texto {
-    position: relative;
-    width: 85%;
-    left: 7%;
-    top: 60%;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 390;
-    font-size: 21px;
-    line-height: 35px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #FFFFFF;
-    justify-content: center;
+  position: relative;
+  width: 85%;
+  left: 7%;
+  top: 60%;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 390;
+  font-size: 21px;
+  line-height: 35px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  justify-content: center;
 }
 
 .imagem {
-    display: flex;
-    margin: 10% 7%;
-    width: 85%;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
+  display: flex;
+  margin: 10% 7%;
+  width: 85%;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
 }

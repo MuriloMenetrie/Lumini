@@ -1,12 +1,12 @@
 .background {
   margin: 0;
   height: 100vh;
-  background-color: #2D2D2D;
-  color: #FFFFFF;
+  background-color: #2d2d2d;
+  color: #ffffff;
   width: 100vw;
-	transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-out;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
 }
 
 body::-webkit-scrollbar {
@@ -19,7 +19,7 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-  background-color: #F2B705;
+  background-color: #f2b705;
 }
 
 .material-icons-outlined {
@@ -28,36 +28,46 @@ body::-webkit-scrollbar-thumb {
 }
 
 .botao-entrar {
-    position: relative;
-    background: linear-gradient(360deg, #424dd7 8%, rgb(34 34 34 / 52%) 186%, rgba(63, 63, 63, 0.64) 100%);
-    border: 1px #424DD7;
-    border-radius: 5px;
-    color: #ffffff;
-    display: inline-block;
-    height: 40px;
-    letter-spacing: -1px;
-    line-height: 40px;
-    padding: 4px;
-    text-align: center;
-    text-decoration: none;
-    width: 70%;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-in-out;
-    justify-content: center;
-    margin-left: 13.5%;
-    margin-right: 0;
-    margin-top: 0;
-    margin-bottom: 10%;
-    font-weight: bold;
-    font-size: 20px;
-    font-family: "nunito", sans-serif;
+  position: relative;
+  background: linear-gradient(
+    360deg,
+    #424dd7 8%,
+    rgb(34 34 34 / 52%) 186%,
+    rgba(63, 63, 63, 0.64) 100%
+  );
+  border: 1px #424dd7;
+  border-radius: 5px;
+  color: #ffffff;
+  display: inline-block;
+  height: 40px;
+  letter-spacing: -1px;
+  line-height: 40px;
+  padding: 4px;
+  text-align: center;
+  text-decoration: none;
+  width: 70%;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  justify-content: center;
+  margin-left: 13.5%;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 10%;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: "nunito", sans-serif;
 }
 
 .botao-entrar:hover {
-    transform: scale(1.1);
-    border-radius: 15px;
-    background: linear-gradient(360deg, #f2b705 8%, rgb(34 34 34 / 52%) 186%, rgba(63, 63, 63, 0.64) 100%);
-    color: #000000;
+  transform: scale(1.1);
+  border-radius: 15px;
+  background: linear-gradient(
+    360deg,
+    #f2b705 8%,
+    rgb(34 34 34 / 52%) 186%,
+    rgba(63, 63, 63, 0.64) 100%
+  );
+  color: #000000;
 }
 
 .texto {
@@ -66,13 +76,13 @@ body::-webkit-scrollbar-thumb {
   height: 60%;
   left: 8%;
   top: 47%;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
   text-align: justify;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
 .titulo {
@@ -81,14 +91,14 @@ body::-webkit-scrollbar-thumb {
   height: 10%;
   left: 8%;
   top: 40%;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
   display: flex;
   align-items: center;
   margin: 0;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 30px;
   justify-content: center;
 }
@@ -98,7 +108,7 @@ body::-webkit-scrollbar-thumb {
   width: 80%;
   left: 10.5%;
   margin-top: 15%;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 390;
   font-size: 15px;
@@ -106,7 +116,7 @@ body::-webkit-scrollbar-thumb {
   display: flex;
   align-items: center;
   text-align: center;
-  color: #9E9C9C;
+  color: #9e9c9c;
   justify-content: center;
   align-content: center;
 }

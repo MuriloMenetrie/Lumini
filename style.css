@@ -1,45 +1,37 @@
-  .wow {
+.wow {
   width: 100px;
 }
 
 .background {
-	margin: 0;
-  background-color: #2D2D2D;
-	transition-property: all;
-    transition-duration: 0.5s;
-    transition-timing-function: ease-out;
+  margin: 0;
+  background-color: #2d2d2d;
+  transition-property: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
 }
-
 
 /*Página Inicial*/
 
-.logo{
-	/*height: 30%;*/
-    width: -webkit-fill-available;
-    /* position: absolute; */
-    margin: 470px 25%;
-    /* top: 30%; */
-    /* left: 11%; */
-}
+.logo {
+  width: -webkit-fill-available;
+  margin: 470px 25%;
 }
 
-.titulo{
-
-    position: absolute;
-    width: 75%;
-    height: 17%;
-    left: 18.5%;
-    right: 15.5%;
-    top: 55%;
-    font-family: 'Nunito', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 85px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #DCDCDC;
-    text-decoration: none;
+.titulo {
+  position: absolute;
+  width: 75%;
+  height: 17%;
+  left: 18.5%;
+  right: 15.5%;
+  top: 55%;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 85px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #dcdcdc;
+  text-decoration: none;
 }
-
