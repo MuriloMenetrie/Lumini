@@ -30,6 +30,13 @@
     <link rel="icon" type="imagem/x-icon" href="/imagens/luminiicon.ico" />
 
     <link rel="manifest" href="/Lumini/public/manifest.json" />
+
+    <script type="module">
+      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+      const el = document.createElement('pwa-update');
+      document.body.appendChild(el);
+   </script>
+   
   </head>
 
   <body class="background">
@@ -37,6 +44,6 @@
       <img class="logo" src="imagens/logotexto.png" />
     </a>
 
-    <script src="main.js"></script>
+    
   </body>
 </html>
