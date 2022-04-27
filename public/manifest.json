@@ -9,23 +9,23 @@
     "theme_color": "#F2B705",
     "icons": [
         {
-            "src": "imagens/icons/icon96.png",
-            "sizes": "96x96",
+            "src": "/Lumini/imagens/icons/icon96.png",
+            "sizes": "97x97",
             "type": "image/png"
         },
         {
-            "src": "imagens/icons/icon144.png",
-            "sizes": "144x144",
+            "src": "/Lumini/imagens/icons/icon144.png",
+            "sizes": "145x145",
             "type": "image/png"
         },
         {
-            "src": "imagens/icons/icon256.png",
-            "sizes": "256x256",
+            "src": "/Lumini/imagens/icons/icon256.png",
+            "sizes": "257x257",
             "type": "image/png"
         },
         {
-            "src": "imagens/icons/icon512.png",
-            "sizes": "512x512",
+            "src": "/Lumini/imagens/icons/icon512.png",
+            "sizes": "513x513",
             "type": "image/png"
         }
     ]
