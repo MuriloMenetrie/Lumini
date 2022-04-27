@@ -6,6 +6,10 @@ self.addEventListener('install', function (event){
             cache.addAll([
                 
                 '/',
+                '/imagens/icons/icon96.png',
+                '/imagens/icons/icon144.png',
+                '/imagens/icons/icon256.png',
+                '/imagens/icons/icon512.png',
                 '/imagens/astolfo.png',
                 '/imagens/escudo.png',
                 '/imagens/folha.png',
