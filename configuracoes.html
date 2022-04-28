@@ -59,16 +59,49 @@
         </div>
             		
 		<div> 
+
+            <div class="boxs2">
+
+                <!--MEDIDOR
+                <label for="BarraA" id=lbl_BarraA>Medida SIGNIFICATIVA:</label>
+                <meter id="BarraA" value="2" min="0" max="10">2 out of 10</meter><br>
+                -->
+                
+                <p>
+                    Conectar dispositivo
+                </p>
+                
+                
+                <!--BOTÕES PARA CONEXÃO E DESCONEXÃO-->
+                <div>
+                    <button id="connect" type="button">Conectar</button>
+                    <button id="disconnect" type="button">Desconectar</button>
+                </div>
+                
+                <!------SWITCH-------->
+                
+                <label class="switch">
+                    <input type="checkbox" id="SwitchA" onClick="MudouSwitch()">
+                    <span class="slider"></span>
+                </label><br><br>
+
+                <!--ÁREA DE STATUS-->
+                <div id="status" class="status">
+                    <label id="saida">Status:</label>
+                </div>
+
+            </div>
+
             <div class="boxs">
-                <p>Mudança Automática 
+                <p>Mudança Automática</p>
                     <div class="toggle">
                         <input type="checkbox" id="fo">
                         <label for="fo"></label>
                     </div>
-                </p>
+                
             </div>
 
-            <div class="boxs2">
+            <!--<div class="boxs">
                 <p>Programar 
                     <div class="fundo-hora">
                         <p>00:00</p>
@@ -78,15 +111,14 @@
                         <p>00:00</p>
                     </div>
                 </p>
-            </div>
+            </div>-->
         
-            <div class="boxs3">
-                <p>Sensor de presença 
+            <div class="boxs">
+                <p>Sensor de presença</p>
                     <div class="toggle">
                         <input type="checkbox" id="foo">
                         <label for="foo"></label>
                     </div>
-                </p>
             </div>
 		</div>
 
@@ -109,6 +141,7 @@
 
        <script src="configuracoes.js"></script>
        <script src="main.js"></script>
+       <script src="js/companion.js" data-service-worker="sw.js"></script>
    </body>
 
 
